@@ -24,18 +24,18 @@ It showcases how a Data Engineer can build an end-to-end data collection → pro
 🔹 Trend graph visualization to understand sentiment distribution over time.
 
 
-📁 Sentiment-Analysis-Amazon-structure 
-│
-├── load_scrape.py                 # Scrapes reviews and book data from Amazon
-├── click_link.py                  # automating to click the first link
-├── scroll_to_customer_reviews.py  # automate scrolling to customer reviews 
-├── extract_reviews_and_dates.py   # extract reviews and its particular dates based on the particular reviews
-├── gemini_sentiment_analysis.py   # Analyzes sentiments using Gemini AI
-├── reviews_translated.xlsx        # Input data file (optional for clean data)
-├── reviews_with_sentiment.xlsx    # Output file with sentiments
-├── score_and_reason.py            # give score and reason for the particular sentiments
-├── trend_graph.py                 # Script to generate sentiment trend visualization
-└── README.md                      # Project documentation
+📁 Sentiment-Analysis-Amazon-files 
+
+ 1. load_scrape.py-Scrapes reviews and book data from Amazon
+ 2. click_link.py-automating to click the first link
+ 3. scroll_to_customer_reviews.py - automate scrolling to customer reviews 
+ 4. extract_reviews_and_dates.py - extract reviews and its particular dates based on the particular reviews
+ 5. gemini_sentiment_analysis.py - Analyzes sentiments using Gemini AI
+ 6. reviews_translated.xlsx - Input data file (optional for clean data)
+ 7. reviews_with_sentiment.xlsx - Output file with sentiments
+ 8. score_and_reason.py - give score and reason for the particular sentiments
+ 9. trend_graph.py - Script to generate sentiment trend visualization
+ 10. README.md - Project documentation
 
 # sentiments
 
